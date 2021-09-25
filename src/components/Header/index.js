@@ -38,7 +38,7 @@ const Nav = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  transition: all 0.3s;
+  transition: all 0.3s ease-in-out;
   @media only Screen and (max-width: 48em) {
     display: none;
   }
@@ -234,8 +234,8 @@ const Header = () => {
   return (
     <Headers ref={ref}>
       <Logo>
-        <img src={logo} alt="CodeBucks" />
-        <h3>CodeBucks</h3>
+        <img src={logo} alt="Web Blueprint Icon" />
+        <h3>Web Blueprint</h3>
       </Logo>
       <Nav>
         <a href="#home" onClick={(e) => scrollUp("home", e)}>
