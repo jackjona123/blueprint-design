@@ -192,7 +192,7 @@ const Contact = () => {
           </AddressItem>
           <AddressItem>
             <Icon src={Send} />
-            <Text>contact@jackjona.live</Text>
+            <Text>contact@blueprintdesign.ga</Text>
           </AddressItem>
         </AddressContainer>
       </Wrapper>
