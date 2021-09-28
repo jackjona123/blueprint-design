@@ -15,7 +15,6 @@ const Container = styled.div`
     padding: 30px 20px;
     align-items: center;
     justify-content: center;
-    
   }
 `;
 
@@ -55,15 +54,15 @@ const Right = styled.div`
 const Title = styled.span`
   font-size: 70px;
   padding-left: 40px;
-  padding-top: 120px;
+  margin-top: -80px;
   @media only screen and (max-width: 480px) {
     font-size: 50px;
     padding-left: 10px;
     width: 100%;
-    padding-top: 30px;
   }
   @media only screen and (max-width: 980px) {
     width: 100%;
+    padding-top: 50px;
   }
 `;
 
@@ -98,12 +97,14 @@ const Button = styled.button`
   border-radius: 20px;
   margin-top: 20px;
   cursor: pointer;
+  
   @media only screen and (max-width: 480px) {
     margin-top: 50px;
     display: none;
   }
   @media only screen and (max-width: 980px) {
     margin-top: 50px;
+    display: none;
   }
 `;
 

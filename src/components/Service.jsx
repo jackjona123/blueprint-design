@@ -132,13 +132,14 @@ const ButtonClick = styled.button`
   color: white;
   font-size: 20px;
   padding: 15px;
-  margin-top: 50px;
+  margin-top: 30px;
   cursor: pointer;
   display: flex;
   align-items: center;
 
   @media only screen and (max-width: 480px) {
     margin-bottom: 60px;
+    margin-top: 50px;
   }
 `;
 
